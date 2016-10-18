@@ -62,6 +62,9 @@ body {
 .li_radio_right {
     padding-left: 0px !important;
 
+
+/*
+
 <<<<<<< HEAD
 =======
 #ntgtHolder {
@@ -73,6 +76,8 @@ body {
 	text-align:center;
 >>>>>>> origin/master
 }
+
+*/
 
 
 /*.li_radio_left input[type="radio"]:checked:before {
