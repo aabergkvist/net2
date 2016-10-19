@@ -10708,482 +10708,6 @@ input[type="text"].pageTitleTextbox{
 
 
 
-.item_text {
-    margin-bottom: 10px;
-    margin-left: 0px;
-}
-
-.itemholder {
-    padding: 30px;
-}
-
-body {
-    font-family: 'Gotham', sans-serif;
-}
-
-.item_text_text {
-    max-width: 100%;
-    width: 100%;
-    position:relative;
-}
-
-.item_text_text .empty-holder {
-    color: #747373;
-    font-size: 25px;
-}
-
-.radio_item_text .editable-text-holder .empty-holder {
-    font-size: 18px !important;
-}
-
-.li_radio_left {
-    padding-right: 8px;
-    margin-top: 6px;
-}
-
-.multipleChoiceDisplayTD input {display: none;}
-.multipleChoiceDisplayTD label {
-    height: 15px;
-    width: 15px;
-    border: 1px solid #7e7e81;
-    display: inline-block;
-}
-.multipleChoiceDisplayTD input[type="radio"] + label {
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
-    vertical-align: -4px;
-}
-.multipleChoiceDisplayTD input[type="checkbox"] + label {
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    border-radius: 2px;
-    vertical-align: -4px;
-}
-
-.li_radio_right {
-    padding-left: 0px !important;
-}
-
-/*
-#ntgtHolder {
-    position: fixed;
-    z-index:900;
-    text-align: center;
-    background-color:white;
-    width:100%;
-    text-align:center;
-}
-*/
-
-
-/*.li_radio_left input[type="radio"]:checked:before {
-  background: green;
-  box-shadow: 0 0 0 0.25em #000;
-}*/
-
-.UpDownButtonContainer {
-    display: none !important;
-}
-
-.li_item:hover {
-    background: #fff !important;
-}
-
-.li_item:hover .editable-text-holder .empty-holder {
-    color: #333333;
-}
-
-
-/*.settingsButtonsContainer{
-    float: right;
-    border-left: 1px solid #000;
-    background: #fff;
-}*/
-
-.matrix-row2.matrixStatement label {
-    height: 15px;
-    width: 15px;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
-    border: 1px solid #7e7e81;
-}
-.matrix-row2.matrixStatement label input {display: none;}
-/*.matrixStatement td:not(:first-child)::before {
-    border: 1px solid #969697;
-    border-radius: 15px;
-    content: "";
-    display: inline-block;
-    height: 15px;
-    transition: all 0.5s ease 0s;
-    vertical-align: -0.25em;
-    width: 15px;
-}*/
-
-.coltr {
-    position: relative;
-    top: -41px;
-    left: 40px;
-}
-
-.matrixStatement {
-    position: relative;
-    top: -40px;
-}
-
-.matrixStatement td:first-child {
-    position: relative;
-    left: 5px;
-}
-
-.matrixStatement td:not(:first-child) {
-    position: relative;
-}
-
-.empty-holder {
-    font-size: 18px;
-}
-
-.matrix-title-row .editable-text-holder {
-    width: 100%;
-    box-shadow: none;
-    padding: 10px;
-    margin-bottom: 30px;
-    margin-top: 20px;
-}
-
-#changeQuestionTypeButton {
-    position: absolute;
-    height: 51px;
-    width: 250px;
-    top: 10px;
-    right: 5px;
-    background-color: #1795CA;
-  
-    
-    cursor: pointer;
-    line-height: 40px;
-    padding: 4px;
-    color: #555;
-}
-
-#changeQuestionTypeButton:after {
-    content: '';
-    display: block;
-    position: absolute;
-    right: 15px;
-    top: 25px;
-    width: 0;
-    height: 0;
-    border-top: 7px solid white;
-    border-right: 8px solid transparent;
-    border-bottom: 0 solid transparent;
-    border-left: 9px solid transparent;
-    -webkit-transition: color 0.25s ease;
-    -moz-transition: color 0.25s ease;
-    -ms-transition: color 0.25s ease;
-    -o-transition: color 0.25s ease;
-    transition: color 0.25s ease;
-}
-
-#changeQuestionTypeButton:hover::after{
-    border-top: 7px solid #2c3e50;
-}
-
-#changeQuestionTypeButton p {
-    color: #555;
-}
-
-.matrixTable .editable-text-holder td {
-    position: relative;
-    left: -5px;
-    display: block;
-    margin-bottom: 10px;
-}
-
-.matrixTable .edit-li .editable-text-holder td input[type='text'] {
-    padding: 10px;
-    margin-left: 0;
-    box-shadow: none;
-    color: #000;
-}
-
-.editable-text-holder .column-holder {
-    padding: 12px 5px;
-    box-shadow: none;
-    margin-right: 10px;
-}
-
-.matrix-row > td:first-child {
-    position: relative;
-
-}
-
-.statementWeightTD::before {
-    border: 1px solid #969697;
-    border-radius: 15px;
-    content: "";
-    display: inline-block;
-    height: 15px;
-    transition: all 0.5s ease 0s;
-    vertical-align: -0.25em;
-    width: 15px;
-    background-color:white;
-}
-
-
-
-.addColumnButton {
-    margin-left: 15px;
-    width: 140px;
-    margin-bottom: 0px;
-    padding: 20px 0;
-    font-weight:normal;
-}
-
-.addRowText {
-    margin-left: 15px;
-}
-
-.matrixDelRowDiv {
-    margin-right: 15px;
-}
-
-.item_left_holder {
-    margin-left: 0px;
-}
-
-.matrixTable >thead tr:nth-child(2) {
-    left: 28px;
-    position: relative;
-}
-
-.matrixRowHighlighted {
-    background: #fff !important;
-}
-
-.matrix-del .del-div {
-    position: absolute !important;
-    right: -175px !important;
-}
-
-.questionSettingsTable {
-    width: 100% !important;
-}
-
-.questionSettingsHeader {
-    background: transparent;
-}
-
-.item_settings {
-    background: transparent;
-    box-shadow: none;
-    height: auto;
-}
-
-.questionSettingsTD {
-    background: #fff;
-}
-
-.questionSettingsActiveTD {
-    background: #49a4d9;
-}
-
-.settingsoptiontext {
-    font-family: 'Gotham Book', sans-serif;
-    color: #313131;
-    font-size: 16px;
-    font-weight: 400;
-    width: 100%;
-}
-
-.questionSettingsTD {
-    border: none;
-}
-
-.multipleChoiceMoreSettingsTD {
-    border: none;
-}
-
-.questionSettingsHeaderText {
-    color: #000;
-}
-
-.questionSettingsActiveTD .questionSettingsHeaderText {
-    color: #fff;
-}
-
-.questionSettingsActiveTD .questionSettingsHeaderText:hover {
-    color: #fff;
-}
-
-.questionSettingsContainer {
-    background: white;
-    padding: 20px;
-    height: auto;
-    margin-top: 2px;
-    border-bottom: 1px solid #bbafaf;
-}
-
-.saveCancelContainer {
-    position: relative;
-    
-    text-align: right;
-    padding: 30px;
-}
-
-.multipleChoiceAnswersTable tr {
-    width: 25%;
-}
-
-.multipleChoiceAnswersTable input[type="checkbox"] {display: none;}
-.multipleChoiceAnswersTable input[type="checkbox"] + label {
-    height: 20px;
-    width: 20px;
-    border: 1px solid #585859;
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    border-radius: 2px;
-    margin-left:5px;
-}
-.multipleChoiceAnswersTable input[type="checkbox"]:checked + label::before {content: '\2713';}
-.multipleChoiceAnswersTable input[type="checkbox"] + label::before {
-    content: '';
-    margin-left: 2px;
-    font-size: 20px;
-}
-
-.multipleChoicePositiobTable input[type="radio"] {display: none;}
-.multipleChoicePositiobTable input[type="radio"] + label {
-    height: 20px;
-    width: 20px;
-    border: 1px solid #585859;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
-}
-.multipleChoicePositiobTable input[type="radio"]:checked + label::before {content: '\2713';}
-.multipleChoicePositiobTable input[type="radio"] + label::before {
-    content: '';
-    margin-left: 2px;
-    font-size: 20px;
-}
-
-.multipleMoreSettingsLeft input[type="checkbox"] {display: none;}
-.multipleMoreSettingsLeft input[type="checkbox"] + label {
-    height: 20px;
-    width: 20px;
-    border: 1px solid #585859;
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    border-radius: 2px;
-}
-.multipleMoreSettingsLeft input[type="checkbox"]:checked + label::before {content: '\2713';}
-.multipleMoreSettingsLeft input[type="checkbox"] + label::before {
-    content: '';
-    margin-left: 2px;
-    font-size: 20px;
-}
-.minmaxcontainer {width: 100%;}
-.minmaxcontainer input {width: 40%;}
-.minmaxcontainer input:first-child {margin-bottom: 10px;}
-.minmaxcontainer p {width: 50%;}
-
-.multipleChoiceAnswersTable input[type="checkbox"]:checked +:parent {
-    background: url(http://cdn.tutsplus.com/webdesign/uploads/legacy/tuts/391_checkboxes/check_radio_sheet.png) -16px top no-repeat;
-}
-
-
-#changeQuestionTypeContainer {
-    background-color: #fff;
-    position: absolute;
-    right: 0px;
-    top: 80px;
-    width: 261px;
-}
-
-
-/*li[id^="question-"] .item_text_text{
-    width: 97%;
-    margin-top: 100px;
-    margin-left: 10px;
-    max-width: 100%;
-}
-
-li[id^="question-"] #changeQuestionTypeButton {
-    position: absolute;
-    height: 48px;
-    width: 90%;
-    top: 50px;
-    left: 50px;
-    background-color: #fff;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    cursor: pointer;
-    line-height: 40px;
-    padding: 4px;
-    color: #555;
-}
-
-li[id^="question-"] .settingsTextHolder{
-    width: 99%;
-    padding: 12px;
-}
-li[id^="question-"] .edit-ul{
-    width: 100%;
-}
-
-li[id^="question-"] .edit-li .editable-text-holder td input[type="text"]{
-    width: 100%;
-}*/
-
-.settingsTextHolder {
-    width: calc(100% - 65px);
-    padding: 12px !important;
-    margin-left: 20px;
-    border-radius: 0px !important;
-    border: 1px solid #2c3e50 !important;
-    cursor: text;
-    
-}
-.settingsTextHolder:hover{
-    border: 1px solid #1795CA !important;
-}
-
-
-ul.edit-ul {
-    width: 100%;
-}
-
-.edit-li .editable-text-holder td input[type="text"] {
-    width: 95%;
-    margin-left: -22px;
-    padding: 15px 10px;
-    box-shadow: none;
-    color: #000;
-}
-
-.matrix-title-row {
-    width: 65%;
-}
-
-.inner-holder {
-    text-align: left;
-}
-
-.del-td {
-    margin-left: 20px;
-}
-
-.del-div {
-    width: 20px;
-    float: right;
-    margin-left: 0px;
-}
-
-
-
 
 @font-face {
   font-family: 'Gotham Book';
@@ -11811,4 +11335,479 @@ ul.edit-ul {
       background-color: transparent; }
       .li_item #changeQuestionTypeContainer .changeQuestionTypeTD:hover .changeQuestionTypeCaption {
         color: #1795ca; }
+
+
+.item_text {
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
+
+.itemholder {
+    padding: 30px;
+}
+
+body {
+    font-family: 'Gotham', sans-serif;
+}
+
+.item_text_text {
+    max-width: 100%;
+    width: 100%;
+    position:relative;
+}
+
+.item_text_text .empty-holder {
+    color: #747373;
+    font-size: 25px;
+}
+
+.radio_item_text .editable-text-holder .empty-holder {
+    font-size: 18px !important;
+}
+
+.li_radio_left {
+    padding-right: 8px;
+    margin-top: 6px;
+}
+
+.multipleChoiceDisplayTD input {display: none;}
+.multipleChoiceDisplayTD label {
+    height: 15px;
+    width: 15px;
+    border: 1px solid #7e7e81;
+    display: inline-block;
+}
+.multipleChoiceDisplayTD input[type="radio"] + label {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    vertical-align: -4px;
+}
+.multipleChoiceDisplayTD input[type="checkbox"] + label {
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    vertical-align: -4px;
+}
+
+.li_radio_right {
+    padding-left: 0px !important;
+}
+
+/*
+#ntgtHolder {
+    position: fixed;
+    z-index:900;
+    text-align: center;
+    background-color:white;
+    width:100%;
+    text-align:center;
+}
+*/
+
+
+/*.li_radio_left input[type="radio"]:checked:before {
+  background: green;
+  box-shadow: 0 0 0 0.25em #000;
+}*/
+
+.UpDownButtonContainer {
+    display: none !important;
+}
+
+.li_item:hover {
+    background: #fff !important;
+}
+
+.li_item:hover .editable-text-holder .empty-holder {
+    color: #333333;
+}
+
+
+/*.settingsButtonsContainer{
+    float: right;
+    border-left: 1px solid #000;
+    background: #fff;
+}*/
+
+.matrix-row2.matrixStatement label {
+    height: 15px;
+    width: 15px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 1px solid #7e7e81;
+}
+.matrix-row2.matrixStatement label input {display: none;}
+/*.matrixStatement td:not(:first-child)::before {
+    border: 1px solid #969697;
+    border-radius: 15px;
+    content: "";
+    display: inline-block;
+    height: 15px;
+    transition: all 0.5s ease 0s;
+    vertical-align: -0.25em;
+    width: 15px;
+}*/
+
+.coltr {
+    position: relative;
+    top: -41px;
+    left: 40px;
+}
+
+.matrixStatement {
+    position: relative;
+    top: -40px;
+}
+
+.matrixStatement td:first-child {
+    position: relative;
+    left: 5px;
+}
+
+.matrixStatement td:not(:first-child) {
+    position: relative;
+}
+
+.empty-holder {
+    font-size: 18px;
+}
+
+.matrix-title-row .editable-text-holder {
+    width: 100%;
+    box-shadow: none;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+#changeQuestionTypeButton {
+    position: absolute;
+    height: 51px;
+    width: 250px;
+    top: 10px;
+    right: 5px;
+    background-color: #1795CA;
+  
+    
+    cursor: pointer;
+    line-height: 40px;
+    padding: 4px;
+    color: #555;
+}
+
+#changeQuestionTypeButton:after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 25px;
+    width: 0;
+    height: 0;
+    border-top: 7px solid white;
+    border-right: 8px solid transparent;
+    border-bottom: 0 solid transparent;
+    border-left: 9px solid transparent;
+    -webkit-transition: color 0.25s ease;
+    -moz-transition: color 0.25s ease;
+    -ms-transition: color 0.25s ease;
+    -o-transition: color 0.25s ease;
+    transition: color 0.25s ease;
+}
+
+#changeQuestionTypeButton:hover::after{
+    border-top: 7px solid #2c3e50;
+}
+
+#changeQuestionTypeButton p {
+    color: #555;
+}
+
+.matrixTable .editable-text-holder td {
+    position: relative;
+    left: -5px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.matrixTable .edit-li .editable-text-holder td input[type='text'] {
+    padding: 10px;
+    margin-left: 0;
+    box-shadow: none;
+    color: #000;
+}
+
+.editable-text-holder .column-holder {
+    padding: 12px 5px;
+    box-shadow: none;
+    margin-right: 10px;
+}
+
+.matrix-row > td:first-child {
+    position: relative;
+
+}
+
+.statementWeightTD::before {
+    border: 1px solid #969697;
+    border-radius: 15px;
+    content: "";
+    display: inline-block;
+    height: 15px;
+    transition: all 0.5s ease 0s;
+    vertical-align: -0.25em;
+    width: 15px;
+    background-color:white;
+}
+
+
+
+.addColumnButton {
+    margin-left: 15px;
+    width: 140px;
+    margin-bottom: 0px;
+    padding: 20px 0;
+    font-weight:normal;
+}
+
+.addRowText {
+    margin-left: 15px;
+}
+
+.matrixDelRowDiv {
+    margin-right: 15px;
+}
+
+.item_left_holder {
+    margin-left: 0px;
+}
+
+.matrixTable >thead tr:nth-child(2) {
+    left: 28px;
+    position: relative;
+}
+
+.matrixRowHighlighted {
+    background: #fff !important;
+}
+
+.matrix-del .del-div {
+    position: absolute !important;
+    right: -175px !important;
+}
+
+.questionSettingsTable {
+    width: 100% !important;
+}
+
+.questionSettingsHeader {
+    background: transparent;
+}
+
+.item_settings {
+    background: transparent;
+    box-shadow: none;
+    height: auto;
+}
+
+.questionSettingsTD {
+    background: #fff;
+}
+
+.questionSettingsActiveTD {
+    background: #49a4d9;
+}
+
+.settingsoptiontext {
+    font-family: 'Gotham Book', sans-serif;
+    color: #313131;
+    font-size: 16px;
+    font-weight: 400;
+    width: 100%;
+}
+
+.questionSettingsTD {
+    border: none;
+}
+
+.multipleChoiceMoreSettingsTD {
+    border: none;
+}
+
+.questionSettingsHeaderText {
+    color: #000;
+}
+
+.questionSettingsActiveTD .questionSettingsHeaderText {
+    color: #fff;
+}
+
+.questionSettingsActiveTD .questionSettingsHeaderText:hover {
+    color: #fff;
+}
+
+.questionSettingsContainer {
+    background: white;
+    padding: 20px;
+    height: auto;
+    margin-top: 2px;
+    border-bottom: 1px solid #bbafaf;
+}
+
+.saveCancelContainer {
+    position: relative;
+    
+    text-align: right;
+    padding: 30px;
+}
+
+.multipleChoiceAnswersTable tr {
+    width: 25%;
+}
+
+.multipleChoiceAnswersTable input[type="checkbox"] {display: none;}
+.multipleChoiceAnswersTable input[type="checkbox"] + label {
+    height: 20px;
+    width: 20px;
+    border: 1px solid #585859;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    margin-left:5px;
+}
+.multipleChoiceAnswersTable input[type="checkbox"]:checked + label::before {content: '\2713';}
+.multipleChoiceAnswersTable input[type="checkbox"] + label::before {
+    content: '';
+    margin-left: 2px;
+    font-size: 20px;
+}
+
+.multipleChoicePositiobTable input[type="radio"] {display: none;}
+.multipleChoicePositiobTable input[type="radio"] + label {
+    height: 20px;
+    width: 20px;
+    border: 1px solid #585859;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+.multipleChoicePositiobTable input[type="radio"]:checked + label::before {content: '\2713';}
+.multipleChoicePositiobTable input[type="radio"] + label::before {
+    content: '';
+    margin-left: 2px;
+    font-size: 20px;
+}
+
+.multipleMoreSettingsLeft input[type="checkbox"] {display: none;}
+.multipleMoreSettingsLeft input[type="checkbox"] + label {
+    height: 20px;
+    width: 20px;
+    border: 1px solid #585859;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+.multipleMoreSettingsLeft input[type="checkbox"]:checked + label::before {content: '\2713';}
+.multipleMoreSettingsLeft input[type="checkbox"] + label::before {
+    content: '';
+    margin-left: 2px;
+    font-size: 20px;
+}
+.minmaxcontainer {width: 100%;}
+.minmaxcontainer input {width: 40%;}
+.minmaxcontainer input:first-child {margin-bottom: 10px;}
+.minmaxcontainer p {width: 50%;}
+
+.multipleChoiceAnswersTable input[type="checkbox"]:checked +:parent {
+    background: url(http://cdn.tutsplus.com/webdesign/uploads/legacy/tuts/391_checkboxes/check_radio_sheet.png) -16px top no-repeat;
+}
+
+
+#changeQuestionTypeContainer {
+    background-color: #fff;
+    position: absolute;
+    right: 0px;
+    top: 80px;
+    width: 261px;
+}
+
+
+/*li[id^="question-"] .item_text_text{
+    width: 97%;
+    margin-top: 100px;
+    margin-left: 10px;
+    max-width: 100%;
+}
+
+li[id^="question-"] #changeQuestionTypeButton {
+    position: absolute;
+    height: 48px;
+    width: 90%;
+    top: 50px;
+    left: 50px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    line-height: 40px;
+    padding: 4px;
+    color: #555;
+}
+
+li[id^="question-"] .settingsTextHolder{
+    width: 99%;
+    padding: 12px;
+}
+li[id^="question-"] .edit-ul{
+    width: 100%;
+}
+
+li[id^="question-"] .edit-li .editable-text-holder td input[type="text"]{
+    width: 100%;
+}*/
+
+.settingsTextHolder {
+    width: calc(100% - 65px);
+    padding: 12px !important;
+    margin-left: 20px;
+    border-radius: 0px !important;
+    border: 1px solid #2c3e50 !important;
+    cursor: text;
+    
+}
+.settingsTextHolder:hover{
+    border: 1px solid #1795CA !important;
+}
+
+
+ul.edit-ul {
+    width: 100%;
+}
+
+.edit-li .editable-text-holder td input[type="text"] {
+    width: 95%;
+    margin-left: -22px;
+    padding: 15px 10px;
+    box-shadow: none;
+    color: #000;
+}
+
+.matrix-title-row {
+    width: 65%;
+}
+
+.inner-holder {
+    text-align: left;
+}
+
+.del-td {
+    margin-left: 20px;
+}
+
+.del-div {
+    width: 20px;
+    float: right;
+    margin-left: 0px;
+}
 
