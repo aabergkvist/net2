@@ -7053,19 +7053,18 @@ input.settingscheckbox {
     width:100%;
 }
 
-<<<<<<< HEAD
+
 .changeQuestionTypeCaption{
     margin:5px;
     width: 60%;
     display: inline-block;
-=======
+}
+
 select {
     margin-right: 4px!important;
-  
-  
     text-indent: 1px;
     text-overflow: '';
->>>>>>> origin/master
+
 }
 
 .changeQuestionTypeTDBorder{
@@ -7210,17 +7209,14 @@ input.previewEditRadio{
     
 }
 
-<<<<<<< Updated upstream
 select {
     margin-right: 4px!important;
-  
-  
     text-indent: 1px;
     text-overflow: '';
-=======
-.matrixEditPreviewRadio{
+}
+
+.matrixEditPreviewRadio {
     text-align: center;
->>>>>>> Stashed changes
 }
 
 .headersPreviewMatrixHolder{
@@ -8089,10 +8085,7 @@ input[type="text"].pageTitleTextbox{
     background-size: contain;
     background-repeat: no-repeat;
     margin-left: auto;
-    margin-right: auto;
-
-    
-    
+    margin-right: auto;    
 }
 
 .selectQuestionRadioIcon{
@@ -10773,9 +10766,6 @@ body {
 }
 
 /*
-
-<<<<<<< HEAD
-=======
 #ntgtHolder {
     position: fixed;
     z-index:900;
@@ -10783,9 +10773,7 @@ body {
     background-color:white;
     width:100%;
     text-align:center;
->>>>>>> origin/master
 }
-
 */
 
 
